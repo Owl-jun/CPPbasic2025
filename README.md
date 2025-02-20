@@ -9,5 +9,5 @@
 
 ### 자료구조
 
-- [연결리스트구현](./data_algo/CLinkedList.h)
+- [연결리스트구현](./data_algo/CLinkedList.h)  : cpp 파일
 
