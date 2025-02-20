@@ -7,6 +7,13 @@ class CListNode
 {
     template <typename T>
     friend class CLinkedList;
+
+    template <typename T>
+    friend class CListIterator;
+
+    template <typename T>
+    friend class CListReverseIterator;
+
 public:
     CListNode()
     {
@@ -25,11 +32,64 @@ private:
 };
 
 template <typename T>
+class CListIterator
+{
+    template <typename T>
+    friend class CLinkedList;
+
+public:
+    CListIterator()
+    {
+        m_pNode = nullptr;
+    }
+    ~CListIterator()
+    {
+
+    }
+
+private:
+    typedef CListNode<T>*   PNODE;
+
+private:
+    PNODE m_pNode;
+
+public:
+    bool operator == (const CListIterator<T>& iter)
+    {
+        return m_pNode == iter.m_pNode;
+    }
+    bool operator != (const CListIterator<T>& iter)
+    {
+        return m_pNode != iter.m_pNode;
+    }
+
+    void operator ++()
+    {
+        m_pNode = m_pNode->m_pNext;
+    }
+
+    void operator -- ()
+    {
+        m_pNode = m_pNode->m_pPrev;
+    }
+
+    T& operator * ()
+    {
+        return m_pNode->m_Data;
+    }
+
+};
+
+
+template <typename T>
 class CLinkedList
 {
 private:
     typedef CListNode<T>    NODE;
     typedef CListNode<T>*   PNODE;
+
+public:
+    typedef CListIterator<T>    iterator;
 
 private:
     PNODE   m_pBegin;
@@ -155,4 +215,37 @@ public:
         delete m_pEnd;
     }
 
+public:
+    // begin() 함수는 추가된 가장 첫번째 노드의 주소를 가지고있는 이터레이터를 반환한다.
+    iterator begin()    const
+    {
+        iterator    iter;
+        iter.m_pNode = m_pBegin->m_pNext;
+        return iter;
+    }
+
+    iterator end()      const
+    {
+        iterator iter;
+        iter.m_pNode = m_pEnd->m_pPrev;
+        return iter;
+    }
+
+public:
+
+    void sort(bool(*pFunc)(const T&, const T&))
+    {
+        for (PNODE pFirst = m_pBegin->m_pNext; pFirst != m_pEnd->m_pPrev; pFirst->m_pNext)
+        {
+            for (PNODE pSecond = pFirst->m_pNext; pSecond != m_pEnd; pSecond->m_pNext)
+            {
+                if(pFunc(pFirst->m_Data, pSecond->m_Data))
+                {
+                    T temp = pFirst->m_Data;
+                    pFirst->m_Data = pSecond->m_Data;
+                    pSecond->m_Data = temp;
+                }
+            }
+        }
+    }
 };

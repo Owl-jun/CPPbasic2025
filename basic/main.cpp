@@ -11,7 +11,7 @@ int main()
 
     int i = 0;
     unsigned char c = -12; // 0 ~ 255 , 예상과 다른 문자가 표현 될 것임.
-    signed char c2 = -12; // -128 ~ 127
+    signed char c2 = -12; // -128 ~ 127 , MSB 를 제외 한 2^7 씩 0 : 0~127 , 1 : -128 ~ -1 두가지로 표현 됨
 
 
     return 0;
