@@ -3,9 +3,8 @@
 ### 문법
 
 - 자료형
-    - [자료형공부](./basic/main.cpp)
-    - bit/byte, signed/unsigned, 2의보수법
-        - [학습정리](https://blog.naver.com/beatspermymind/223571398078)
+    - [자료형공부](./basic/main.cpp)  : cpp 파일
+    - [학습정리](https://blog.naver.com/beatspermymind/223571398078)  : bit/byte, signed/unsigned, 2의보수법
 
 
 ### 자료구조
