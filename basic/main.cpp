@@ -10,12 +10,8 @@ int main()
 
 
     int i = 0;
-    unsigned char c = -12; // 0 ~ 255
+    unsigned char c = -12; // 0 ~ 255 , 예상과 다른 문자가 표현 될 것임.
     signed char c2 = -12; // -128 ~ 127
-
-    std::cout << c << c2 << std::endl;
-    std::cout << "Test Output" << std::endl;
-    std::cin.get();  // 프로그램 종료 전 대기
 
 
     return 0;
