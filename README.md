@@ -1,7 +1,6 @@
 ## C++ 문법 기록 및 c++ 자료구조 알고리즘 공부 기록용
 
-### vscode 에서 c++ 빌드 및 컴파일, 디버깅
-- [블로그](https://basiclike.tistory.com/360)
+### vscode 에서 c++ 빌드 및 컴파일, 디버깅 세팅 [블로그](https://basiclike.tistory.com/360)
 
 ### 문법
 
