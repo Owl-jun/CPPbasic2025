@@ -2,7 +2,7 @@
 
 ### vscode 에서 c++ 빌드 및 컴파일, 디버깅
 - [블로그](https://basiclike.tistory.com/360)
-- 
+
 ### 문법
 
 - 자료형
