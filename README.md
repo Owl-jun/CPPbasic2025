@@ -5,12 +5,12 @@
 ### 문법
 
 - 자료형
-    - int + float = ? , 정수와 실수의 표현방식  :  [자료형공부](./basic/main.cpp)
-    - bit/byte, signed/unsigned, 2의보수법  :  [학습정리](https://blog.naver.com/beatspermymind/223571398078)      
-    - 부동소수점방식, 연산자  :  [학습정리](https://blog.naver.com/beatspermymind/223572581021)      
+    - int + float = ? , 정수와 실수의 표현방식  :  [[자료형공부](./basic/main.cpp)]
+    - bit/byte, signed/unsigned, 2의보수법  :  [[학습정리](https://blog.naver.com/beatspermymind/223571398078)]
+    - 부동소수점방식, 연산자  :  [[학습정리](https://blog.naver.com/beatspermymind/223572581021)]
 
 
 ### 자료구조
 
-- [연결리스트구현](./data_algo/CLinkedList.h)  : cpp 파일
+- [[연결리스트구현](./data_algo/CLinkedList.h)]
 
