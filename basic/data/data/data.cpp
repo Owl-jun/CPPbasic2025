@@ -36,5 +36,25 @@ int main() {
 
 	std::cout << result;
 
+	// 증감 연산자
+	// 다음 단계로 증가, 감소한다. ++ --
+	// 전위 , 후위
+	// 후위 연산자의 경우 대입연산자보다 늦게 동작
+	int a = 10;
+	int data = a++; // data의 값은? 10이 된다. (10 대입 후 1증가)
+	data = ++a; // data의 값은? 12가 된다. (11->12 한후 대입)
+	// 전위가 성능면에서 더 좋을 가능성이 높다.
+
+	// 논리 연산자
+	// !(not), &&(And) , ||(Or)
+	// 참	: 0이 아닌 값
+	// 거짓	: 0
+	// bool 자료형 = true, false(0) 을 다루는 자료형
+
+	bool truefalse = false;
+	truefalse = !truefalse;	// false -> true
+	int iTrue = 1;
+	iTrue = !iTrue; // 1 -> 0
+
 	return 0;
 }

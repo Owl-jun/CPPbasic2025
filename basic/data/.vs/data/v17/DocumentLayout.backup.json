@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Source\\C\u002B\u002B\\CPPbasic2025\\basic\\data\\",
+  "WorkspaceRootPath": "C:\\Source\\CPPbasic2025\\basic\\data\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9CFF7171-2CF7-49B5-98FE-88FC279444C2}|data\\data.vcxproj|C:\\Source\\C\u002B\u002B\\CPPbasic2025\\basic\\data\\data\\data.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{9CFF7171-2CF7-49B5-98FE-88FC279444C2}|data\\data.vcxproj|C:\\Source\\CPPbasic2025\\basic\\data\\data\\data.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{9CFF7171-2CF7-49B5-98FE-88FC279444C2}|data\\data.vcxproj|solutionrelative:data\\data.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "data.cpp",
-              "DocumentMoniker": "C:\\Source\\C\u002B\u002B\\CPPbasic2025\\basic\\data\\data\\data.cpp",
+              "DocumentMoniker": "C:\\Source\\CPPbasic2025\\basic\\data\\data\\data.cpp",
               "RelativeDocumentMoniker": "data\\data.cpp",
-              "ToolTip": "C:\\Source\\C\u002B\u002B\\CPPbasic2025\\basic\\data\\data\\data.cpp*",
-              "RelativeToolTip": "data\\data.cpp*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAEAAAAAAAAAA==",
+              "ToolTip": "C:\\Source\\CPPbasic2025\\basic\\data\\data\\data.cpp",
+              "RelativeToolTip": "data\\data.cpp",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAADgAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-02-21T11:04:50.198Z",
               "EditorCaption": ""
