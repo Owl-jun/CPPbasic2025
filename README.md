@@ -5,7 +5,7 @@
 ### 기초문법
 
 - 자료형
-    - int + float = ? , 정수와 실수의 표현방식  :  [[자료형공부]([./basic/data.cpp](https://github.com/Owl-jun/CPPbasic2025/blob/main/basic/data/data/data.cpp))]
+    - int + float = ? , 정수와 실수의 표현방식  :  [[자료형공부](./basic/data.cpp)]
     - bit/byte, signed/unsigned, 2의보수법  :  [[학습정리](https://blog.naver.com/beatspermymind/223571398078)]
     - 부동소수점방식, 연산자  :  [[학습정리](https://blog.naver.com/beatspermymind/223572581021)]
 
