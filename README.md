@@ -14,6 +14,9 @@
     - 조건문 (if else , switch , ? : 삼항연산자) : [[학습정리]](https://blog.naver.com/beatspermymind/223575681487)
     - 비트쉬프트, 비트연산 관련 : [[학습정리]](https://blog.naver.com/beatspermymind/223577067236)
     - 지역&전역변수 , 반복문 관련 : [[학습정리]](https://blog.naver.com/beatspermymind/223577067236)
+
+- 기초
+    - 유용한 단축키 , 디버깅 단축키 , 함수&재귀함수 , 배열 : [[CPP]](./basic/data/data/func.cpp)
     
 ### 자료구조
 
