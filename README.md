@@ -17,6 +17,8 @@
 
 - 기초
     - 유용한 단축키 , 디버깅 단축키 , 함수&재귀함수 , 배열 : [[CPP]](./basic/data/data/func.cpp)
+    - 함수동작원리 : [학습정리](https://blog.naver.com/beatspermymind/223580587199)
+    - 재귀함수 : [학습정리](https://blog.naver.com/beatspermymind/223581910252)
     
 ### 자료구조
 
