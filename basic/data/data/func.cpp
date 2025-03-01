@@ -59,7 +59,7 @@ int Fibo_Re(int n)
 	return Fibo_Re(n - 2) + Fibo_Re(n - 1);
 }
 
-int main() {
+int func() {
 	int num = Factorial(4);
 	printf("%d \n", num);
 	int fibo = Fibo(7);

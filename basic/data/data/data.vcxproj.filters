@@ -24,5 +24,15 @@
     <ClCompile Include="func.cpp">
       <Filter>헤더 파일</Filter>
     </ClCompile>
+    <ClCompile Include="struct_etc.cpp">
+      <Filter>헤더 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>헤더 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="function.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="function.h" />
   </ItemGroup>
 </Project>
