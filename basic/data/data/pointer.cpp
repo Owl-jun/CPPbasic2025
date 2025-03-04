@@ -83,5 +83,25 @@ int main() {
 	// 포인터 타입변수로 주소를 읽어옴
 	// 허나, 원본 값 변경을 하지 않겠다 라는 표식으로 앞에 const int* pI 등으로 매개변수를 설정
 
+	// void *
+	// 1. 원본의 자료형을 정하지 않음
+	// 2. 어떠한 타입의 변수의 주소든 다 저장 가능
+	// 3. 역참조 불가능
+	// 4. 주소 연산 불가능
+	void* pVoid = nullptr;
+
+	// 문자
+	char c = 0;
+	wchar_t wc = 49;	// 문자
+	short s = 49;		// 숫자정수
+
+	char c2 = 'c2';
+	wchar_t wc2 = L'c2';
+
+	char szChar[10] = "abcdef";
+	wchar_t szWChar[10] = L"abcdefghi";	// NUL 포함해야하기에 9칸만 사용
+	const wchar_t* wP = L"abcdefghi";	// 코드 영역에있는 문자열의 주소를 가르키기에, const로 받아야함.
+	const char* wC = "abcdefghi";		// 수정이 되어선 안되겠쥬? 배열을 선언할 시 코드영역의 리터럴을 복사한거임.
+
 	return 0;
 }
