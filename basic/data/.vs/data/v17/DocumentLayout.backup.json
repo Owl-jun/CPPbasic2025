@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Source\\CPPbasic2025\\basic\\data\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9CFF7171-2CF7-49B5-98FE-88FC279444C2}|data\\data.vcxproj|C:\\Source\\CPPbasic2025\\basic\\data\\data\\test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9CFF7171-2CF7-49B5-98FE-88FC279444C2}|data\\data.vcxproj|solutionrelative:data\\test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CFF7171-2CF7-49B5-98FE-88FC279444C2}|data\\data.vcxproj|C:\\Source\\CPPbasic2025\\basic\\data\\data\\struct_etc.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9CFF7171-2CF7-49B5-98FE-88FC279444C2}|data\\data.vcxproj|solutionrelative:data\\struct_etc.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9CFF7171-2CF7-49B5-98FE-88FC279444C2}|data\\data.vcxproj|C:\\Source\\CPPbasic2025\\basic\\data\\data\\pointer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{9CFF7171-2CF7-49B5-98FE-88FC279444C2}|data\\data.vcxproj|solutionrelative:data\\pointer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -26,24 +34,48 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "pointer.cpp",
-              "DocumentMoniker": "C:\\Source\\CPPbasic2025\\basic\\data\\data\\pointer.cpp",
-              "RelativeDocumentMoniker": "data\\pointer.cpp",
-              "ToolTip": "C:\\Source\\CPPbasic2025\\basic\\data\\data\\pointer.cpp",
-              "RelativeToolTip": "data\\pointer.cpp",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAUwC0AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "struct_etc.cpp",
+              "DocumentMoniker": "C:\\Source\\CPPbasic2025\\basic\\data\\data\\struct_etc.cpp",
+              "RelativeDocumentMoniker": "data\\struct_etc.cpp",
+              "ToolTip": "C:\\Source\\CPPbasic2025\\basic\\data\\data\\struct_etc.cpp",
+              "RelativeToolTip": "data\\struct_etc.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-03T04:47:56.092Z",
+              "WhenOpened": "2025-03-06T00:06:48.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "test.cpp",
+              "DocumentMoniker": "C:\\Source\\CPPbasic2025\\basic\\data\\data\\test.cpp",
+              "RelativeDocumentMoniker": "data\\test.cpp",
+              "ToolTip": "C:\\Source\\CPPbasic2025\\basic\\data\\data\\test.cpp",
+              "RelativeToolTip": "data\\test.cpp",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACQAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-05T23:45:18.092Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "pointer.cpp",
+              "DocumentMoniker": "C:\\Source\\CPPbasic2025\\basic\\data\\data\\pointer.cpp",
+              "RelativeDocumentMoniker": "data\\pointer.cpp",
+              "ToolTip": "C:\\Source\\CPPbasic2025\\basic\\data\\data\\pointer.cpp",
+              "RelativeToolTip": "data\\pointer.cpp",
+              "ViewState": "AgIAACwAAAAAAAAAAAAUwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-03T04:47:56.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "function.cpp",
               "DocumentMoniker": "C:\\Source\\CPPbasic2025\\basic\\data\\data\\function.cpp",
               "RelativeDocumentMoniker": "data\\function.cpp",
@@ -55,7 +87,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "function.h",
               "DocumentMoniker": "C:\\Source\\CPPbasic2025\\basic\\data\\data\\function.h",
               "RelativeDocumentMoniker": "data\\function.h",
@@ -67,7 +99,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Source\\CPPbasic2025\\basic\\data\\data\\main.cpp",
               "RelativeDocumentMoniker": "data\\main.cpp",
@@ -75,7 +107,8 @@
               "RelativeToolTip": "data\\main.cpp",
               "ViewState": "AgIAACQAAAAAAAAAAAAAAD0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-01T03:55:54.107Z"
+              "WhenOpened": "2025-03-01T03:55:54.107Z",
+              "EditorCaption": ""
             }
           ]
         }
