@@ -1,15 +1,32 @@
-#include <stdio.h>
-int a;
-int f() {
-	return a++;
+#include <string>
+#include <vector>
+
+using namespace std;
+
+vector<int> solution(int num, int total) {
+    vector<int> memo;
+    int count = total;
+    int tempAcc = 0;
+    while (true) {
+        for (int i = 0; i < num; ++i)
+        {
+            tempAcc += count - i;
+            memo.insert(memo.begin(), count - i);
+        }
+        if (total == tempAcc) {
+            break;
+        }
+        else { memo.clear(); }
+        tempAcc = 0;
+        --count;
+    }
+
+    return memo;
 }
 
 int main() {
 
-	for (int i = 0; i < 3; i++)
-	{
-		printf("%d", f());
-	}
-	printf("%d", a);
-	return 0;
+    solution(5, 0);
+    
+    return 0;
 }
