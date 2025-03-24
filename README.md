@@ -85,7 +85,16 @@ int* pInt = (int*)malloc(sizeof(int)) ## 사용 예시
     - 리턴되는 임시 객체를 레지스터에서 덮어씌워지기전에 얼른 받아낸다면, 받아낸 스택 영역이 소멸할 때 까지 생존기간을 늘릴 수 있다.
 
 - 상속
-    -
+    - 부모
+        public
+        protected
+        private
+    - 상속
+        public : 있는 그대로 상속
+        protected : public을 모두 protected로 상속
+        private : 모든 멤버를 private로 상속
+    - IS-A : 상속
+    - HAS-A : 포함 ( 다른 클래스를 멤버로 들여오는 것. )
 
 - 복사생성자
     - 복사생성자의 매개인자가 레퍼런스가 아닌경우 매개인자로 쓸 변수를 위해 복사생성자 호출이 또 일어나게된다. **(무한재귀)**
