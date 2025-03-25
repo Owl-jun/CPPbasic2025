@@ -128,6 +128,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="TETRIS.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GAME.h" />
+    <ClInclude Include="TETRIS.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
